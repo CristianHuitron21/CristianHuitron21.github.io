@@ -1,0 +1,121 @@
+/* Estilos para texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #2096e6;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    color: #666;
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para etiquetas semánticas */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para la página "Acerca de mí" */
+body[data-page="acerca-de-mi"] {
+    background-color: #f0f0f0;
+}
+
+body[data-page="acerca-de-mi"] header {
+    background-color: #000000;
+    color: #fff;
+}
+
+body[data-page="acerca-de-mi"] main {
+    padding: 20px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+img[src="M.jpg"] {
+        max-width: 100%;
+        width: 175px;
+        background: #026bb1;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 30px;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+img[src="c.jpeg"] {
+        max-width: 100%;
+        width: 175px;
+        background: #026bb1;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 30px;
+        border: 4px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+#carouselExampleAutoplaying {
+        max-width: 700px;
+        height: 500px;
+        width: 700px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+    }
+
+#carouselExampleAutoplaying1 {
+        max-width: 700px;
+        height: 500px;
+        width: 700px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+    }
+
+.dropdown-item {
+    color: #e7e43e;
+}
+/* Estilos específicos para el framework online */
+/* (Vinculados directamente en los archivos HTML) */
