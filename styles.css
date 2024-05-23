@@ -1,9 +1,8 @@
-/* Estilos para texto */
-body {
+/*body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #2096e6;
+    background-color: #ff931f;
 }
 
 h1 {
@@ -14,13 +13,11 @@ p {
     color: #666;
 }
 
-/* Estilos para listas */
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* Estilos para etiquetas semánticas */
 section {
     background-color: #ffffff;
     padding: 20px;
@@ -28,7 +25,6 @@ section {
     border-radius: 5px;
 }
 
-/* Estilos para imagen */
 img {
     max-width: 100%;
     height: auto;
@@ -40,7 +36,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Estilos específicos para la página "Acerca de mí" */
 body[data-page="acerca-de-mi"] {
     background-color: #f0f0f0;
 }
@@ -60,17 +55,38 @@ body[data-page="acerca-de-mi"] main {
   
 .dropdown>.dropdown-toggle:active {
       pointer-events: none;
-  }
+  } */
 
-img[src="M.jpg"] {
+img[src="M.jpg"] {float: right;
         max-width: 100%;
-        width: 175px;
-        background: #026bb1;
+        width: 305px;
+        background: #026bb100;
         padding: 10px;
         box-sizing: border-box;
-        margin: 30px;
-        border: 4px solid rgb(0, 0, 0);
+        margin: 90px;
+        border: 4px solid rgba(0, 0, 0, 0);
         border-radius: 20px;
+        top:200px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+        
+
+    
+
+img[src="c.jpeg"] { float: left;
+        max-width: 100%;
+        width: 305px;
+        background: #026bb100;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 90px;
+        border: 4px solid rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        top:200px;
         display: flex;
         align-items: center;
         align-content: center;
@@ -78,22 +94,7 @@ img[src="M.jpg"] {
         justify-content: space-between;
     }
 
-img[src="c.jpeg"] {
-        max-width: 100%;
-        width: 175px;
-        background: #026bb1;
-        padding: 10px;
-        box-sizing: border-box;
-        margin: 30px;
-        border: 4px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
+/*
 #carouselExampleAutoplaying {
         max-width: 700px;
         height: 500px;
@@ -115,7 +116,57 @@ img[src="c.jpeg"] {
     }
 
 .dropdown-item {
-    color: #e7e43e;
+    color: #000000;
 }
-/* Estilos específicos para el framework online */
-/* (Vinculados directamente en los archivos HTML) */
+
+*{margin: 20px; padding: 20px;}
+#intro {color: #1C1C1C; text-align: center; }
+.titulo {text-align: center;}
+.c{text-align: right;}
+.m{text-align: left;}
+.container {position: relative;}
+
+video {width: 540px; height: 490px; position: relative;  left: 450px; }
+
+#dropdownMenuButton {
+    color: #000000;
+    background-color: #ff931f;
+    width: 500px;
+}
+*/
+
+.text {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+p[class="m"] {
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+p[class="c"] {
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+h3::first-line {
+        color: rgb(0, 0, 0);
+    }
+
+.social-media {
+    color: black;
+}
+
+a[href] {
+    color: black;
+}
+
+footer {
+    background-color: #bd6f1b;
+}
