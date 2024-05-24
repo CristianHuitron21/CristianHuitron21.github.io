@@ -1,140 +1,197 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final - Mari y Cris</title>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final - Mari y Cris</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="dropdown">
-                <button data-mdb-button-init
-                  data-mdb-ripple-init data-mdb-dropdown-init class="btn btn-primary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menu
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="index.html">Acerca de nosotros</a></li>
-                    <li><a class="dropdown-item" href="portfolio.html">Portafolio</a></li>
-                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+  <header>
+    <div class="container-fluid" style="padding: 0;">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid text-center">
+          <a class="navbar-brand" href="index.html">
+            Página web de Maricruz y Cristian
+            <img src="MC.jpg" alt="Logo" height="35px" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Más información
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html">Acerca de nosotros</a></li>
+                  <li><a class="dropdown-item" href="contacto.html">Contáctanos</a></li>
+
                 </ul>
-              </div>
-        </nav>
-        <h1>Portafolio</h1>
-    </header>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <h1>Portafolio</h1>
+  </header>
 
-    <main>
-        <section>
-            <h2>Proyectos: Maricruz</h2>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="FotoM1.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM2.jpg" class="d-block w-50" alt="Autor:Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM3.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM4.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM5.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM6.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM7.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM8.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM9.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="FotoM10.jpg" class="d-block w-50" alt="Autor: Maricruz Fraga">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+  <main>
+    <section>
+      <h2 class="titulo">Proyectos: Maricruz</h2>
+      <div class="container">
+        <div class="row">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-theme="white">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="FotoM1.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
               </div>
-        </section>
-        
-        <section>
-          <h2>Proyectos: Cristian</h2>
-          <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="Foto1.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto2.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto3.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto4.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto5.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto6.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto7.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto8.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto9.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
-                <div class="carousel-item">
-                  <img src="Foto10.jpg" class="d-block w-50" alt="Autor: Cristian Huitron">
-                </div>
+              <div class="carousel-item">
+                <img src="FotoM2.jpg" class="d-block w-100 img-fluid" alt="Autor:Maricruz Fraga">
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item">
+                <img src="FotoM3.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM4.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM5.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM6.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM7.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM8.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM9.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
+              <div class="carousel-item">
+                <img src="FotoM10.jpg" class="d-block w-100 img-fluid" alt="Autor: Maricruz Fraga">
+              </div>
             </div>
-      </section>
-    </main>
-    
-    <video  src="Equipo2.mp4" width="320" height="240" controls >
-            </video>
-    <footer>
-        <!-- Puedes agregar información de contacto o cualquier otro contenido que desees en el pie de página -->
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <h2 class="text-center">Proyectos: Cristian</h2>
+      <div class="container">
+        <div class="row">
+          <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel" data-bs-theme="white">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Foto1.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto2.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto3.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto4.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto5.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto6.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto7.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto8.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto9.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+              <div class="carousel-item">
+                <img src="Foto10.jpg" class="d-block w-100" alt="Autor: Cristian Huitron">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <video src="Equipo2.mp4" controls>
+  </video>
+  <footer class="p-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-60">
+          <div class="col-1 text-end">
+              <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+                  <img src="INS.png" alt="Instagram" height="50px">
+              </a>
+          </div>
+          <div class="col-3 text-start">
+              <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+                  Maricruz Fraga González
+              </a>
+          </div>
+      </div>
+  </div>
+  <br>
+
+  <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-60">
+          <div class="col-1 text-end">
+              <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+                  <img src="INS.png" alt="Instagram" height="50px">
+              </a>
+          </div>
+          <div class="col-3 text-start">
+              <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+                  Cristian Levi Huitrón Rizo
+      </div>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

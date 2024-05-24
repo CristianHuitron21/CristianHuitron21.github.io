@@ -1,121 +1,261 @@
-/* Estilos para texto */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: #2096e6;
-}
-
-h1 {
-    color: #000000;
-}
-
-p {
-    color: #666;
-}
-
-/* Estilos para listas */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Estilos para etiquetas semánticas */
-section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-/* Estilos para imagen */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-/* Estilos específicos para la página "Acerca de mí" */
-body[data-page="acerca-de-mi"] {
-    background-color: #f0f0f0;
-}
-
-body[data-page="acerca-de-mi"] header {
-    background-color: #000000;
-    color: #fff;
-}
-
-body[data-page="acerca-de-mi"] main {
-    padding: 20px;
-}
-
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-.dropdown>.dropdown-toggle:active {
-      pointer-events: none;
-  }
-
 img[src="M.jpg"] {
-        max-width: 100%;
-        width: 175px;
-        background: #026bb1;
-        padding: 10px;
-        box-sizing: border-box;
-        margin: 30px;
-        border: 4px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    float: right;
+    max-width: 100%;
+    width: 305px;
+    background: #026bb100;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 90px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 img[src="c.jpeg"] {
-        max-width: 100%;
-        width: 175px;
-        background: #026bb1;
-        padding: 10px;
-        box-sizing: border-box;
-        margin: 30px;
-        border: 4px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    float: left;
+    max-width: 100%;
+    width: 305px;
+    background: #026bb100;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 90px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 #carouselExampleAutoplaying {
-        max-width: 700px;
-        height: 500px;
-        width: 700px;
-        display: block;
-        margin: 0 auto;
-        align-items: center;
-        align-content: center;
-    }
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#carouselExampleAutoplaying img {
+    max-width: 100%;
+}
 
 #carouselExampleAutoplaying1 {
-        max-width: 700px;
-        height: 500px;
-        width: 700px;
-        display: block;
-        margin: 0 auto;
-        align-items: center;
-        align-content: center;
-    }
-
-.dropdown-item {
-    color: #e7e43e;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-/* Estilos específicos para el framework online */
-/* (Vinculados directamente en los archivos HTML) */
+
+#carouselExampleAutoplaying1 img {
+    max-width: 100%;
+}
+
+.text {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+p[class="m"] {
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+p[class="c"] {
+    font-size: 17px;
+    font-family: "Roboto";
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+h3::first-line {
+    color: rgb(0, 0, 0);
+}
+
+.social-media {
+    color: black;
+}
+
+a[href] {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+body {
+    background-color: #ffffff !important;
+    margin: 0;
+    padding: 0; ;
+}
+
+header {
+    background-color: #D2691E;
+    padding: 1rem;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+.carousel {
+    position: relative;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner img { 
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.carousel button:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); z-index: 1;
+}
+
+.titulo {
+    text-align: center;
+}
+
+/* Centrado del video */
+video {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Centrado del título "Portafolio" */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+nav {
+    text-align: right; /* Alinea el contenido del menú a la derecha */
+}
+
+
+/*menu*/
+/* Estilos para el encabezado */
+.navbar {
+    background-color: #D2691E; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 40px; /* Texto blanco */
+}
+
+.navbar-brand img {
+    margin-right: 5px; /* Espacio entre el logo y el texto */
+    max-height: 55px;
+}
+
+.navbar-toggler-icon {
+    color: white; /* Icono del botón del menú */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Texto del menú */
+}
+
+.dropdown-menu {
+    background-color: #333; /* Fondo oscuro para el menú desplegable */
+}
+
+.dropdown-menu .dropdown-item {
+    color: white; /* Texto del menú desplegable */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #555; /* Cambio de color al pasar el cursor sobre un elemento del menú desplegable */
+}
+
+.navbar-collapse {
+    justify-content: space-between; /* Distribuye los elementos del menú en ambos lados */
+}
+.navbar-collapse {
+    display: flex; /* Usa Flexbox para los elementos del menú */
+    justify-content: space-between; /* Distribuye los elementos del menú en ambos lados */
+    align-items: center;}
+.mas-informacion {
+    color: white !important; /* Texto del botón "Más información" */
+    margin-left: auto; /* Mueve el botón "Más información" hacia la derecha */
+}
+
+.footer .redes-sociales a {
+    display: block; /* Asegura que cada enlace se comporte como un bloque */
+    text-align: center; /* Centra el texto e imagen dentro del enlace */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin-bottom: 10px; /* Espacio entre enlaces */
+}
+
+.footer .redes-sociales a img {
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.footer .redes-sociales a span {
+    display: block; /* Asegura que el texto se comporte como un bloque */
+    margin-top: 5px; /* Espacio entre la imagen y el texto */}
+
+h2[class="titulo text-center"] {
+    font-size: 60px;
+}
+
+p[class="text-center"] {
+    font-size: 25px;
+}
+
+a[class="nav-link dropdown-toggle"] {
+    font-size: 28px;
+}
+
+h3[class="c"] {
+    font-size: 40px;
+}
+
+h3[class="m"] {
+    font-size: 40px;
+}

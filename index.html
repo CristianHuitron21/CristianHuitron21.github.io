@@ -1,67 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final - Mari y Cris</title>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Metadata -->
+  <title>Proyecto Final - Mari y Cris</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
 </head>
-<body style="background-color: #bd1b1b;">
-    <header>
-        <h1>Página web de Maricruz y Cristian</h1>
-        <nav>
-            <div class="dropdown">
-                <button data-mdb-button-init
-                  data-mdb-ripple-init data-mdb-dropdown-init class="btn btn-primary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Más información
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="index.html">Conócenos</a></li>
-                  <li><a class="dropdown-item" href="portfolio.html">Portafolio</a></li>
-                  <li><a class="dropdown-item" href="contacto.html">Contáctanos</a></li>
-                </ul>
-              </div>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="container-fluid" style="padding: 0;">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid text-center">
+            <a class="navbar-brand" href="index.html">
+              <img src="MC.jpg" alt="Logo" class="d-inline-block align-text-top img-fluid">
+              Portafolio Digital
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Más información
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="portfolio.html">Portafolio</a></li>
+                    <li><a class="dropdown-item" href="contacto.html">Contáctanos</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+      </div>
+    </div>
+    <h1>Acerca de nosotros</h1>
+  </header>
+  <!-- Content -->
+  <div class="container-fluid">
 
-    <main>
-        <section>
-            <h2>¡Hola, somos Maricruz y Cristian!</h2>
-            <p>¡Bienvenido a nuestra página web! Aquí encontrarás información sobre nosotros y lo que hacemos en la carrera de Diseño de la Comunicación Gráfica.</p>
-            <h3>Mi Experiencia</h3>
-            <p>Como estudiante de diseño gráfico, he adquirido experiencia en medios audiovisuales y en el uso de herramientas clave como Adobe Photoshop, Illustrator, InDesign y Premiere Pro. Domino la creación de gráficos, logotipos y contenido multimedia. Mi pasión por el diseño y el aprendizaje continuo me permite ofrecer soluciones creativas y efectivas que cumplen con las necesidades de mis clientes y proyectos..</p>
-            <h3>Mis Hobbies</h3>
-            <p>En mi tiempo libre, me encanta pintar y dibujar, siempre explorando nuevas formas de expresarme. También disfruto mucho con los huertos urbanos, es genial cultivar mis propias plantas y aprender sobre sostenibilidad. La repostería es otra de mis pasiones; me divierto experimentando con recetas y decorando pasteles. Además, soy  fanática de las películas de terror.</p>
-            <figure>
+    <!-- Introducción -->
+    <div class="row mt-5">
+      <div class="col">
+        <h2 class="titulo text-center">¡Hola, somos Maricruz y Cristian!</h2>
+        <p id="intro" class="text-center">¡Bienvenido a nuestra página web! Aquí encontrarás información sobre
+          nosotros y lo que hacemos en la carrera de Diseño de la Comunicación Gráfica.</p>
+      </div>
+    </div>
 
-              <div class="container" >
-                <img src="M.jpg" alt="Mi Foto" height="240" width="320" style="position: absolute;top: 100px; right:  20px">
-               <br> </br>
-            </figure>
-            <h3>Mi Experiencia</h3>
-            <p>Tengo bastante experiencia utilizando Photoshop, principalmente lo utilizo para hacer fotomontajes e ilustraciones "realistas" de escenarios fantásticos. Tengo conocimiento sobre la elaboración de carteles, de empaques y de logos. Sin tener ningún conocimiento sobre distintas técnicas de dibujo a lo largo de mi carrera me he desarrollado en ciertas técnicas. Finalmente también tengo los conocimientos básicos de la fotografía y la animación básica.</p>
-            <h3>Mis Hobbies</h3>
-            <p>Me encanta jugar videojuegos, tengo muchos juegos de diferentes géneros que me encantan, lo mismo con las películas y series e incluso caricaturas o anime. Gracias a la carrera de diseño gráfico también desarrollé gustos como las ilustraciones en Photoshop ya mencionadas o también la fotografía. Fuera del ámbito escolar me gusta mucho la actuación de doblaje y el canto, y aunque no los practico formalmente en una escuela o en un curso externo, los practico precisamente por hobbie.</p>
-            <figure>
-                <img src="c.jpeg" alt="Mi Foto" height="240" width="320" style="position: absolute;top: 500px; left:   20px">>
-            </figure>
-        </section>
-    </main>
+    <!-- Maricruz -->
+    <div class="row justify-content-start">
+      <div class="col-md-6 align-content-center flex-wrap">
+        <figure>
+          <img class="img-fluid w-50 mx-auto d-block" src="M.jpg" alt="Mi Foto">
+        </figure>
+      </div>
+      <div class="col-md-6 text align-content-center flex-wrap">
+        <h3 class="m">Mi Experiencia</b></h3>
+        <p class="m">Como estudiante de diseño gráfico, he adquirido experiencia en medios audiovisuales y en el uso de
+          herramientas clave como Adobe Photoshop, Illustrator, InDesign y Premiere Pro. Domino la creación de
+          gráficos,
+          logotipos y contenido multimedia. Mi pasión por el diseño y el aprendizaje continuo me permite ofrecer
+          soluciones creativas y efectivas que cumplen con las necesidades de mis clientes y proyectos..</p>
+        <h3 class="m">Mis Hobbies</h3>
+        <p class="m">En mi tiempo libre, me encanta pintar y dibujar, siempre explorando nuevas formas de expresarme.
+          También disfruto mucho con los huertos urbanos, es genial cultivar mis propias plantas y aprender sobre
+          sostenibilidad. La repostería es otra de mis pasiones; me divierto experimentando con recetas y decorando
+          pasteles. Además, soy fanática de las películas de terror.</p>
+      </div>
+    </div>
 
-    <footer>
-        <!-- Puedes agregar información de contacto o cualquier otro contenido que desees en el pie de página -->
-    </footer>
+    <!-- Cristian -->
+    <div class="row">
+      <div class="col-md-6 text align-content-center flex-wrap">
+        <h3 class="c">Mi Experiencia</h3>
+        <p class="c">Tengo bastante experiencia utilizando Photoshop, principalmente lo utilizo para hacer
+          fotomontajes
+          e
+          ilustraciones "realistas" de escenarios fantásticos. Tengo conocimiento sobre la elaboración de carteles, de
+          empaques y de logos. Sin tener ningún conocimiento sobre distintas técnicas de dibujo a lo largo de mi
+          carrera
+          me he desarrollado en ciertas técnicas. Finalmente también tengo los conocimientos básicos de la fotografía
+          y
+          la
+          animación básica.</p>
+        <h3 class="c">Mis Hobbies</h3>
+        <p class="c">Me encanta jugar videojuegos, tengo muchos juegos de diferentes géneros que me encantan, lo mismo
+          con
+          las películas y series e incluso caricaturas o anime. Gracias a la carrera de diseño gráfico también
+          desarrollé
+          gustos como las ilustraciones en Photoshop ya mencionadas o también la fotografía. Fuera del ámbito escolar
+          me
+          gusta mucho la actuación de doblaje y el canto, y aunque no los practico formalmente en una escuela o en un
+          curso externo, los practico precisamente por hobbie.</p>
+      </div>
+      <div class="col-md-6 align-content-center flex-wrap">
+        <figure>
+          <img class="img-fluid w-50 mx-auto d-block" src="c.jpeg" alt="Mi Foto">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="p-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-60">
+        <div class="col-6 text-end">
+          <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+            <img src="INS.png" alt="Instagram" height="50px">
+          </a>
+        </div>
+        <div class="col-6 text-start">
+          <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+            Maricruz Fraga González
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-60">
+        <div class="col-6 text-end">
+          <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+            <img src="INS.png" alt="Instagram" height="50px">
+          </a>
+        </div>
+        <div class="col-6 text-start">
+          <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+            Cristian Levi Huitrón Rizo
+        </div>
+      </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
