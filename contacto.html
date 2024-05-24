@@ -17,20 +17,37 @@
 
 <body>
     <header>
-        <nav>
-            <div class="dropdown">
-                <button data-mdb-button-init data-mdb-ripple-init data-mdb-dropdown-init
-                    class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-mdb-toggle="dropdown" aria-expanded="false">
-                    Más información
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="index.html">Acerca de nosotros</a></li>
-                    <li><a class="dropdown-item" href="portfolio.html">Portafolio</a></li>
-                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="container-fluid" style="padding: 0;">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid text-center">
+                    <a class="navbar-brand" href="index.html">
+                        Página web de Maricruz y Cristian
+                        <img src="MC.jpg" alt="Logo" height="35px" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Más información
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.html">Acerca de nosotros</a></li>
+                                    <li><a class="dropdown-item" href="portfolio.html">Portafolio</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
         <h1>Contacto</h1>
     </header>
 
@@ -67,8 +84,35 @@
         </section>
     </main>
 
-    <footer>
-        <!-- Puedes agregar información de contacto o cualquier otro contenido que desees en el pie de página -->
+    <footer class="p-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center min-vh-60">
+                <div class="col-1 text-end">
+                    <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+                        <img src="INS.png" alt="Instagram" height="50px">
+                    </a>
+                </div>
+                <div class="col-3 text-start">
+                    <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+                        Maricruz Fraga González
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center min-vh-60">
+                <div class="col-1 text-end">
+                    <a href="https://www.instagram.com/marruz_frez/" target="_blank" class="d-block text-white mb-3">
+                        <img src="INS.png" alt="Instagram" height="50px">
+                    </a>
+                </div>
+                <div class="col-3 text-start">
+                    <a href="https://www.instagram.com/3stn_pictures/" target="_blank" class="d-block text-white">
+                        Cristian Levi Huitrón Rizo
+            </div>
+        </div>
     </footer>
     <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
     <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241415901851856']", "https://form.jotform.com/")</script>
